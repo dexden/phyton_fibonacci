@@ -1,0 +1,76 @@
+//fib tabanında bulma-------------------------------
+
+
+def fib(n): //fibonacci sayısının indisine göre değerini bulma
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
+
+def bul(a) :
+	for i in a
+		if fib(i)==a || fib(i)>a
+return fib(i-1)
+
+
+def toplambul(c) : // sayıyı fibonacci sayıları toplamı şeklinde yazmak
+dizi=[] 
+sonuc=c-bul(c)
+dizi.append(bul(c))
+print dizi[]
+return toplambul(sonuc)
+
+def tamsonuc(n) :  // sonucu veren metod
+for i in dizi.length
+	for i in dizi.length
+		if fib(i)==dizi[i]
+	sonuc[i]=i
+		else 
+	sonuc[i]=0
+print sonuc
+
+//------------------------------------------------------
+
+onluk tabana dönüştürme 
+
+
+def onlugadon(n) 
+
+dizi2=[]
+for i in n:
+ n%(10**i)=a
+dizi.append(a)
+
+for i in dizi2
+	if dizi2[i]== 1 
+		toplam+=fib(i)
+return toplam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
